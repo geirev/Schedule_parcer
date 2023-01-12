@@ -59,7 +59,7 @@ int main(int argc, char** argv)
    char *cnx = malloc(10 * sizeof(char));
 
 // Alternative one
-   printf("Reading =%s version A\n", Efile);
+   printf("Reading =%s \n", Efile);
    FILE* fpe = fopen(Efile, "r");
    if (fpe == NULL) { printf("fopen failed to open the file %s\n", Efile); exit(-1); }
 
